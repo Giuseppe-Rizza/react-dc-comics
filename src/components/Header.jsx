@@ -1,10 +1,11 @@
+// Importo il componente Logo.jsx
+import Logo from "../components/Logo.jsx";
+
 // Header.jsx
 export default function Header() {
     return (
         <header>
-            <figure>
-                <img src="../public/dc-logo.png" alt="Logo" />
-            </figure>
+            <Logo />
             <nav>
                 <ul>
                     <li><a href="#">CHARACTERS</a></li>
