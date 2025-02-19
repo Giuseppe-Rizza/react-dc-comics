@@ -29,5 +29,5 @@ export default function Header() {
             {/* N.B.: in altre parole, visto che i dati sono sul padre Header, devo passare questi dati in qualche modo al figlio Navbar e li passo dandogli un nome (linksProp) che ti ritrovi dalla'altra parte dagli attributi (links) */}
             <Navbar linksProp={links} />
         </header>
-    );
+    )
 };

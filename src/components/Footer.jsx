@@ -1,7 +1,7 @@
 // Footer.jsx
 export default function Footer() {
     return (
-        <footer className="container">
+        <footer className="container-footer">
             <nav className="footer-nav">
                 <div className="footer-col">
                     <div>
@@ -48,7 +48,7 @@ export default function Footer() {
                 </div>
                 <div className="footer-col">
                     <figure>
-                        <img src="../public/dc-logo-bg.png" alt="La Molisana" />
+                        <img src="../dc-logo-bg.png" alt="DC" />
                     </figure>
                 </div>
             </nav>

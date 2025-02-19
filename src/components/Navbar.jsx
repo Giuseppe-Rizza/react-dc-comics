@@ -16,7 +16,7 @@ export default function Navbar(props) {
                             {link.name}
                         </a>
                     </li>
-                ))};
+                ))}
                 {/* <li><a href="#">CHARACTERS</a></li>
                 <li><a href="#" className="active">COMICS</a></li>
                 <li><a href="#">MOVIES</a></li>
